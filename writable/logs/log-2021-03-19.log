@@ -1,0 +1,54 @@
+CRITICAL - 2021-03-19 12:35:25 --> Invalid file: crud.principal
+#0 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/app/Controllers/Principal.php(9): view()
+#3 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(936): App\Controllers\Principal->index()
+#4 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-19 12:36:17 --> Invalid file: crud.principal
+#0 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/app/Controllers/Principal.php(9): view()
+#3 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(936): App\Controllers\Principal->index()
+#4 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-19 12:36:53 --> Invalid file: crud.principal
+#0 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/app/Controllers/Principal.php(9): view()
+#3 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(936): App\Controllers\Principal->index()
+#4 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-19 12:37:39 --> Invalid file: crud.principal
+#0 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/app/Controllers/Principal.php(9): view()
+#3 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(936): App\Controllers\Principal->index()
+#4 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-19 12:38:46 --> Invalid file: crud.principal
+#0 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/app/Controllers/Principal.php(9): view()
+#3 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(936): App\Controllers\Principal->index()
+#4 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-03-19 12:39:22 --> Invalid file: principal.php
+#0 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/View/View.php(203): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/Common.php(1217): CodeIgniter\View\View->render()
+#2 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/app/Controllers/Principal.php(9): view()
+#3 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(936): App\Controllers\Principal->index()
+#4 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/index.php(44): CodeIgniter\CodeIgniter->run()
+#7 {main}
