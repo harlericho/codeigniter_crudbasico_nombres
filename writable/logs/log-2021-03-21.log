@@ -1,0 +1,180 @@
+CRITICAL - 2021-03-21 16:14:42 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData('3')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:14:51 --> Undefined index: idEliminar
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 41, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 16:15:15 --> Object of class stdClass could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData('3')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:15:55 --> Undefined index: idEliminar
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 41, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 16:16:28 --> Object of class stdClass could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData('3')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:16:38 --> Object of class stdClass could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData('3')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:16:44 --> Undefined index: idEliminar
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 44, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 16:19:45 --> Object of class stdClass could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 32, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData('2')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:19:49 --> Object of class stdClass could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 32, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData('3')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:19:56 --> Undefined index: idEliminar
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 44, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 16:21:03 --> Object of class stdClass could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 32, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:21:06 --> Object of class stdClass could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 32, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:21:41 --> Object of class stdClass could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:22:13 --> Object of class stdClass could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:23:00 --> Object of class stdClass could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:23:06 --> Undefined index: idEliminar
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 41, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 16:23:50 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:23:54 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 33, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 16:33:32 --> Use of undefined constant LengthException - assumed 'LengthException' (this will throw an Error in a future version of PHP)
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'C:\\laragon\\www\\...', 34, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(44): App\Models\Principal_model->statusData(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 17:39:21 --> Call to a member function update() on array
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(93): App\Models\Principal_model->updateData(Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->updates()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 17:41:11 --> Illegal string offset 'nombres'
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\laragon\\www\\...', 43, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(87): App\Models\Principal_model->namesData('CARLA')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->updates()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-21 17:42:29 --> Call to a member function update() on array
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(93): App\Models\Principal_model->updateData(Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->updates()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-21 17:51:34 --> Class Principal does not exist
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Debug\Toolbar\Collectors\Routes.php(82): ReflectionMethod->__construct('Principal', '_remap')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Debug\Toolbar\Collectors\BaseCollector.php(275): CodeIgniter\Debug\Toolbar\Collectors\Routes->display()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Debug\Toolbar.php(101): CodeIgniter\Debug\Toolbar\Collectors\BaseCollector->getAsArray()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Debug\Toolbar.php(314): CodeIgniter\Debug\Toolbar->run(1616367094.5678, 0.0252, Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Filters\DebugToolbar.php(51): CodeIgniter\Debug\Toolbar->prepare(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response))
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Filters\Filters.php(207): CodeIgniter\Filters\DebugToolbar->after(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), NULL)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(450): CodeIgniter\Filters\Filters->run('', 'after')
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}

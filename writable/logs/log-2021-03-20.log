@@ -1,0 +1,199 @@
+CRITICAL - 2021-03-20 22:31:28 --> Call to a member function update() on array
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-20 22:32:49 --> Undefined index: idEliminar
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-20 22:33:01 --> Undefined index: idEliminar
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-20 22:33:43 --> Call to a member function update() on array
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-03-20 22:34:14 --> mysqli_sql_exception: Unknown column 'id1' in 'where clause' in C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `datos` ...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `datos` ...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `datos` ...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `datos` ...', Array, false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(24): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-20 22:34:14 --> Unknown column 'id1' in 'where clause'
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `datos` ...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `datos` ...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `datos` ...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `datos` ...', Array, false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(24): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-20 22:35:09 --> mysqli_sql_exception: Unknown column 'id1' in 'where clause' in C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `datos` ...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `datos` ...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `datos` ...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `datos` ...', Array, false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(24): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-20 22:35:09 --> Unknown column 'id1' in 'where clause'
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `datos` ...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `datos` ...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `datos` ...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `datos` ...', Array, false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(24): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-20 22:35:53 --> mysqli_sql_exception: Unknown column 'id1' in 'where clause' in C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `datos` ...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `datos` ...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `datos` ...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `datos` ...', Array, false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(24): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-20 22:35:53 --> Unknown column 'id1' in 'where clause'
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `datos` ...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `datos` ...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `datos` ...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `datos` ...', Array, false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(24): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-20 22:35:58 --> Undefined index: idEliminar
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 40, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-03-20 22:38:37 --> mysqli_sql_exception: Unknown column 'id1' in 'where clause' in C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `datos` ...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `datos` ...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `datos` ...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `datos` ...', Array, false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(24): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-20 22:38:37 --> Unknown column 'id1' in 'where clause'
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `datos` ...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `datos` ...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `datos` ...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `datos` ...', Array, false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(24): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-20 22:39:39 --> mysqli_sql_exception: Unknown column 'id2' in 'where clause' in C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `datos` ...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `datos` ...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `datos` ...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `datos` ...', Array, false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(24): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-20 22:39:39 --> Unknown column 'id2' in 'where clause'
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `datos` ...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `datos` ...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `datos` ...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `datos` ...', Array, false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(24): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2021-03-20 22:40:56 --> mysqli_sql_exception: Unknown column 'id1' in 'where clause' in C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `datos` ...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `datos` ...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `datos` ...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `datos` ...', Array, false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(24): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-20 22:40:56 --> Unknown column 'id1' in 'where clause'
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('UPDATE `datos` ...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `datos` ...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `datos` ...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseBuilder.php(2468): CodeIgniter\Database\BaseConnection->query('UPDATE `datos` ...', Array, false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(24): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(43): App\Models\Principal_model->deleteData(Array)
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-03-20 23:00:06 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 45, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-20 23:00:18 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to int
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Object of class...', 'C:\\laragon\\www\\...', 45, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->delete()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}

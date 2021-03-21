@@ -52,3 +52,259 @@ CRITICAL - 2021-03-19 12:39:22 --> Invalid file: principal.php
 #5 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/system/CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest()
 #6 /var/www/html/sitiosweb/codeigniter_crudbasico_nombres/index.php(44): CodeIgniter\CodeIgniter->run()
 #7 {main}
+CRITICAL - 2021-03-19 20:46:31 --> syntax error, unexpected '}', expecting ';'
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-19 20:47:22 --> syntax error, unexpected '}', expecting ';'
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-03-19 20:49:11 --> Undefined index: nombres
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->save()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 21:33:11 --> Undefined index: nombres
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->save()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 21:43:46 --> Undefined index: nombres
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->save()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 21:45:54 --> Undefined index: nombres
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->save()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 21:47:12 --> Undefined index: nombres
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->save()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 21:49:39 --> Undefined index: nombres
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->save()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 21:50:34 --> Undefined index: nombres
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 24, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->save()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 21:52:26 --> Undefined index: nombres
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 24, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->save()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 21:53:36 --> Undefined index: nombre
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\laragon\\www\\...', 25, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->save()
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-03-19 22:01:54 --> syntax error, unexpected '}', expecting ';'
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(893): class_exists('\\App\\Controller...', true)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(417): CodeIgniter\CodeIgniter->startController()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-03-19 22:08:47 --> mysqli_sql_exception: PROCEDURE codeigniter_crudbasico_nombres.procedure_listado does not exist in C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('call procedure_...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('call procedure_...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('call procedure_...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(11): CodeIgniter\Database\BaseConnection->query('call procedure_...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): App\Models\Principal_model->getData()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 22:08:47 --> PROCEDURE codeigniter_crudbasico_nombres.procedure_listado does not exist
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('call procedure_...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('call procedure_...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('call procedure_...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(11): CodeIgniter\Database\BaseConnection->query('call procedure_...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): App\Models\Principal_model->getData()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-19 22:09:32 --> mysqli_sql_exception: PROCEDURE codeigniter_crudbasico_nombres.procedure_listado does not exist in C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('call procedure_...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('call procedure_...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('call procedure_...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(11): CodeIgniter\Database\BaseConnection->query('call procedure_...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): App\Models\Principal_model->getData()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 22:09:32 --> PROCEDURE codeigniter_crudbasico_nombres.procedure_listado does not exist
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('call procedure_...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('call procedure_...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('call procedure_...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(11): CodeIgniter\Database\BaseConnection->query('call procedure_...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): App\Models\Principal_model->getData()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-19 22:09:39 --> mysqli_sql_exception: PROCEDURE codeigniter_crudbasico_nombres.procedure_listado does not exist in C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('call procedure_...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('call procedure_...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('call procedure_...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(11): CodeIgniter\Database\BaseConnection->query('call procedure_...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): App\Models\Principal_model->getData()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 22:09:39 --> PROCEDURE codeigniter_crudbasico_nombres.procedure_listado does not exist
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('call procedure_...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('call procedure_...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('call procedure_...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(11): CodeIgniter\Database\BaseConnection->query('call procedure_...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): App\Models\Principal_model->getData()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-19 22:11:15 --> mysqli_sql_exception: PROCEDURE codeigniter_crudbasico_nombres.procedure_listado does not exist in C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('call procedure_...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('call procedure_...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('call procedure_...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(11): CodeIgniter\Database\BaseConnection->query('call procedure_...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): App\Models\Principal_model->getData()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 22:11:15 --> PROCEDURE codeigniter_crudbasico_nombres.procedure_listado does not exist
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('call procedure_...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('call procedure_...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('call procedure_...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(11): CodeIgniter\Database\BaseConnection->query('call procedure_...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): App\Models\Principal_model->getData()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-03-19 22:12:58 --> mysqli_sql_exception: PROCEDURE codeigniter_crudbasico_nombres.procedure_listado does not exist in C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php:314
+Stack trace:
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('call procedure_...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('call procedure_...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('call procedure_...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(11): CodeIgniter\Database\BaseConnection->query('call procedure_...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): App\Models\Principal_model->getData()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 22:12:58 --> PROCEDURE codeigniter_crudbasico_nombres.procedure_listado does not exist
+#0 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\MySQLi\Connection.php(314): mysqli->query('call procedure_...')
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('call procedure_...')
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('call procedure_...')
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Models\Principal_model.php(11): CodeIgniter\Database\BaseConnection->query('call procedure_...')
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): App\Models\Principal_model->getData()
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#6 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#7 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-03-19 22:15:14 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): json_decode(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-19 22:15:36 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): json_decode(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-19 22:17:44 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): json_decode(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-19 22:17:50 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): json_decode(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-19 22:18:30 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): json_decode(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-03-19 22:18:33 --> json_decode() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'json_decode() e...', 'C:\\laragon\\www\\...', 20, Array)
+#1 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\app\Controllers\Principal.php(20): json_decode(Array)
+#2 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(936): App\Controllers\Principal->list()
+#3 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Principal))
+#4 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\laragon\www\sitiosweb\codeigniter_crudbasico_nombres\index.php(44): CodeIgniter\CodeIgniter->run()
+#6 {main}
