@@ -1,5 +1,5 @@
 # CODEIGNITER 4
-![](https://i.pinimg.com/originals/fb/b5/c8/fbb5c8929a38121578c1343d48e13c34.png =400x300)
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxO4KFlDxZpunsokLvVftB_19jRQ_SAdvJw&usqp=CAU)
 
 ![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 ![](https://vsmarketplacebadge.apphb.com/version/jock.svg.svg)
@@ -10,7 +10,7 @@
 `$ https://github.com/harlericho/codeigniter_crudbasico_nombres.git`
 
 # CarlChokSanc
-![](https://avatars.githubusercontent.com/u/42042270?s=460&u=aaac1648595f28b2f95062410214178c174c9fc2&v=4 =120x120) 
+![](https://avatars.githubusercontent.com/u/42042270?s=48&v=4) 
 
 
 
@@ -22,7 +22,7 @@ Crud basico de listado de nombres usando codeigniter 4:
     - dejo el script de la base de datos.
     - importar a cualquier gestor de base de datos sea mariadb o mysql.
 # instalación en windows o mac:
-![](https://assets.stickpng.com/images/58482973cef1014c0b5e49fd.png =150x150)
+![](https://interpolados.files.wordpress.com/2017/06/xampp-logo.png)
  1. - tener cualquier servidor local sea xampp o laragon
  2. - clonar el repositorio en la carpeta root del servidor local.
  3. - configurar el archivo env:
