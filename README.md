@@ -17,10 +17,16 @@
 
 # codeigniter_crudbasico_nombres
 ![](preview.png "CRUD")
-Crud basico de listado de nombres usando codeigniter 4:
+#### Crud basico de listado de nombres usando codeigniter 4:
 
     - dejo el script de la base de datos.
     - importar a cualquier gestor de base de datos sea mariadb o mysql.
+    - Cambiar la configuración de la base de datos en el proyecto CI4:
+       App/Config/Database.php
+        'hostname' => 'localhost',
+		'username' => 'root',
+		'password' => 'root',
+		'database' => 'codeigniter_crudbasico_nombres',
 # instalación en windows o mac:
 ![](https://interpolados.files.wordpress.com/2017/06/xampp-logo.png)
  1. - tener cualquier servidor local sea xampp o laragon
